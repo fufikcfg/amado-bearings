@@ -1,0 +1,120 @@
+.body {
+    width: 100%;
+    min-width: 360px;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Roboto,serif;
+    position: relative;
+}
+
+.header {
+    padding: 64px;
+    margin-left: 4.5px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    position:absolute;
+    z-index: 1000;
+
+}
+
+.container {
+    margin: 0 auto;
+    
+}
+
+.header__inner { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav__link {
+    margin-left: 15.5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    opacity: .75;
+    transition: opacity .2s linear;
+    
+}
+.nav__link:hover {
+    opacity: 1;
+    color: #AB2421;
+}
+.nav__link {
+    margin-left: 30px;
+    text-decoration: none;
+    
+}
+.header__info {
+    margin-left: 30px;
+    text-decoration: none;
+    margin-left: 502px;
+}
+
+.intro { 
+    padding-top: 129px;
+    display: flex;
+    color: chartreuse;
+    flex-direction: column;
+    justify-content:left;
+    position: absolute;
+    width: 1920px;
+    height: 890px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(84deg, rgba(0, 0, 0, 0.8) 6.8%, rgba(0, 0, 0, 0) 40.54%), url("../image/main-logo.jpg") no-repeat center / cover;
+}
+
+.intro__title {
+    
+    position: absolute;
+    width: 727px;
+    height: 156px;
+    left: 203px;
+    top: 449px;
+
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+
+    color: #FFFFFF;
+
+}
+
+.intro__title2 { 
+    position: absolute;
+    width: 746px;
+    height: 62px;
+    left: 203px;
+    top: 625px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+
+.logo__name {
+    position: absolute;
+    width: 295px;
+    height: 153px;
+    left: 199px;
+    top: 210px;
+}
