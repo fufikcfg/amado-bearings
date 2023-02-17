@@ -308,10 +308,23 @@ sup {
     transition: 2s;
 }
 
-.production__type:hover path {
+.production__type:hover path{
     stroke: #AB2421;
-    transform: scale(1.1);
+    transform: scale(.9);
 }
+.production__type:hover ellipse{
+    stroke: #AB2421;
+    transform: scale(.9);
+}
+.production__type:hover line{
+    stroke: #AB2421;
+    transform: scale(.9);
+}
+.production__type:hover circle{
+    stroke: #AB2421;
+    transform: scale(.9);
+}
+
 .production__type:hover .production__name {
     text-decoration:underline #AB2421;
 }
@@ -329,4 +342,436 @@ sup {
     color: #AB2421;
 }
 
+.management__system {
+    top: 1519px;
+    left: 0px;
+    position: absolute;
+    width: 1023px;
+    height: 620px;
+    background: #AB2421;
+}
+.wms {
+    position: absolute;
+    width: 463px;
+    height: 141px;
+    margin-top: 194px;
+    margin-left: 313px;
 
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    /* белый */
+
+    color: #FFFFFF;
+
+}
+.wms__h2 {
+    position: absolute;
+    width: 412px;
+    height: 62px;
+
+    margin-top: 355px;
+    margin-left: 313px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.brandbook__car {
+    position: absolute;
+    width: 640.76px;
+    height: 566.3px;
+/* как хорошо встала с первого раза*/
+}
+
+sup {
+    top: -0.7em;
+    font-weight: 700;
+    font-size: 50%;
+}
+
+.brandbook__slider {
+    position: absolute;
+    background: url("../image/image\ 106\ \(1\).png") no-repeat center / cover;
+    width: 904px;
+    height: 620px;
+    left: 1023px;
+    top: 1519px;
+}
+
+.slider__btn {
+    margin-top: 520px;
+    margin-left: 100px;
+    position: absolute;
+    border: #FFFFFF;
+    width: 100px;
+    height: 100px;
+
+}
+
+.slider__next__btn {
+    margin-top: 520px;
+    border: #AB2421;
+    border-radius: 0px;
+    background: #AB2421;    
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 804px;
+    transform: rotate(-180deg);
+}
+
+
+.slider__btn:hover{
+    
+    background-color:#AB2421;
+    stroke: #AB2421;
+}
+.slider__btn:hover path{
+    stroke: #FFFFFF;
+}
+
+.slider__next__btn:hover {
+    background-color:#FFFFFF;
+}
+ 
+
+.slider__next__btn:hover path {
+    stroke: #000000;
+}
+
+.warehouses{ 
+    position: absolute;
+    width: 1021px;
+    height: 620px;
+    left: 906px;
+    top: 2139px;
+    background: #B1B2B3;
+}
+
+.warehouses__car {
+    display: flex;
+    justify-content: end;
+    margin-top: 175px;
+    
+}
+
+.warehouses__text {
+
+}
+
+.warehouses__title {
+    position: absolute;
+    width: 558px;
+    height: 141px; 
+
+    margin-left: 101px;
+    margin-top: 177px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    
+    
+    color: #FFFFFF;
+}
+
+.warehouses__subtitle {
+    position: absolute;
+    width: 456px;
+    height: 93px;
+
+    margin-left: 100px;
+    margin-top: 338px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.img__left__warehouses {
+    position: absolute;
+    width: 906px;
+    height: 620px;
+    left: 0px;
+    top: 2139px;
+
+    background: linear-gradient(180.96deg, rgba(0, 0, 0, 0) 30.35%, rgba(0, 0, 0, 0.5) 98.35%), url(../image/image\ 103\ \(2\).png);
+
+    /* display: inline-block;
+    overflow: hidden; */
+}
+
+/* .img__left__warehouses {
+    transition: 1s; 
+    display: block;
+}
+
+.img__left__warehouses:hover {
+    transform: scale(1.1);
+        
+} */
+
+.left__warehouses__btn {
+    position: absolute;
+
+    background-color: #B1B2B3;
+    border: #B1B2B3;
+
+    margin-top: 520px;
+    margin-left: 806px;
+    position: absolute;
+    
+    width: 100px;
+    height: 100px;
+}
+
+.left__warehouses__next__btn {
+    position: absolute;
+
+    margin-top: 520px;
+    border: #B1B2B3;
+    border-radius: 0px;
+    background: #AB2421;    
+    
+    width: 100px;
+    height: 100px;
+    right: 100px;
+    transform: rotate(-180deg);
+}
+
+.left__warehouses__btn:hover{
+    
+    background-color:#AB2421;
+    stroke: #AB2421;
+}
+.left__warehouses__btn:hover path{
+    stroke: #FFFFFF;
+}
+
+.left__warehouses__next__btn:hover {
+    background-color:#B1B2B3;
+    border: #B1B2B3;
+}
+ 
+
+.left__warehouses__next__btn:hover path {
+    stroke: #FFFFFF;
+} 
+
+.technical__service {
+    position: absolute;
+    width: 1017px;
+    height: 620px;
+    top: 2759px;
+
+    margin-left: -8px;
+
+    background: #EEEEEE;
+}
+
+.technical__service__title {
+    position: absolute;
+    width: 493px;
+    height: 94px;
+    margin-top: 185px;
+    margin-left: 307px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #242526;
+    
+}
+
+.technical__service__subtitle {
+    position: absolute;
+    width: 473px;
+    height: 93px;
+    margin-top: 299px;
+    margin-left: 307px;
+    
+    /* main txt для главноя */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    /* or 31px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #1F1111;
+    
+}
+
+.technical__service__gps {
+    margin-top: 197.31px;
+}
+
+.the_man_in_the_red_shirt_or_blue {
+    position: absolute;
+    width: 910px;
+    height: 620px;
+    left: 1017px;
+    top: 2759px;
+
+    background: url(../image/image\ 143\ \(2\).png);
+}
+
+.man__btn {
+    bottom: 0px;
+    position: absolute;
+    border: #EEEEEE;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-180deg);
+}
+.man__next__btn {
+    margin-top: 520px;
+    border: #AB2421;
+    border-radius: 0px;
+    background: #AB2421;    
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 520px;
+    margin-left: 100px;
+}
+
+.man__btn:hover{
+    
+    background-color:#AB2421;
+    stroke: #AB2421;
+}
+.man__btn:hover path{
+    stroke: #FFFFFF;
+}
+
+.man__next__btn:hover {
+    background-color:#FFFFFF;
+}
+
+.man__next__btn:hover path {
+    stroke: #000000;
+}
+
+.application__work {
+    position: absolute;
+    width: 1017px;
+    height: 620px;
+    background: #57585A;
+    left: 910px;
+    top: 3379px;
+}
+
+.work__nstop__title {
+    position: absolute;
+    width: 404px;
+    height: 94px;
+    margin-top: 160px;
+    margin-left: 104px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+}
+
+.work__nstop__subtitle {
+    position: absolute;
+    width: 472px;
+    height: 93px;
+    margin-top: 274px;
+    margin-left: 104px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+.work__car {
+    margin-left: 732px;
+    position: absolute;
+    width: 250.28px;
+    height: 221.61px;
+
+    background: #57585A;
+}
+
+.application__work__btn {
+    box-sizing: border-box;
+
+    position: absolute;
+
+
+    margin-top: 404px;
+    margin-left: 100px;
+    width: 277px;
+    height: 55px;
+
+    background-color: transparent;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    }
+
+.application__work__btn__text {
+    position: absolute;
+    width: 155px;
+    height: 21px;
+    left: calc(50% - 155px/2);
+    top: calc(50% - 21px/2);
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.application__work__btn:hover {
+    color: #AB2421;
+    background-color: #FFFFFF;
+    border: 2px solid #AB2421
+}
+
+/* .btn__logo:hover{
+    color: #AB2421;
+    background-color: #FFFFFF;
+    border: 2px solid #AB2421
+} */
