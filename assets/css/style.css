@@ -14,8 +14,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-    padding: 64px;
-    margin-left: 100px;
+    padding: 50px;
+    margin-left: 123px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -66,11 +66,11 @@ h1, h2, h3, h4, h5, h6 {
 .header__info {
     margin-left: 30px;
     text-decoration: none;
-    margin-left: 502px;
+    margin-left: 409px;
 }
 
 .intro { 
-    padding-top: 129px;
+    /* padding-top: 129px; */
     display: flex;
     flex-direction: column;
     justify-content:left;
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn__logo {
     position: relative;
-    margin-top: -20px;
+    margin-top: 96px;
     left: -625px;
     top: 625px;
     background: #AB2421;
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 14px;
     text-align: center;
     text-transform: uppercase;
-
+    border-color: #AB2421;
     color: #FFFFFF;
 
     box-sizing: border-box;
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 935px;
     height: 4px;
     left: 0px;
-    top: 1015px;
+    top: 886px;
     background: #AB2421;
     transform: rotate(-180deg);
 }
@@ -238,10 +238,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .position__product {
     position: absolute;
-    bottom: -598px;
+
     left: 0px;
+    top: 890px;
     height: 499px;
-    width: 910px;
+    width: 910px;   
     background-color: #FFFFFF;
 }
 
@@ -286,7 +287,7 @@ sup {
     grid-template-rows: repeat(2, 300px);
     margin-bottom: 199.49px;
     left: 910px;
-    top: 919px;
+    top: 790px;
     position: absolute;
     height: 600px;
     width: 1017px;
@@ -343,7 +344,7 @@ sup {
 }
 
 .management__system {
-    top: 1519px;
+    top: 1390px;
     left: 0px;
     position: absolute;
     width: 1023px;
@@ -406,7 +407,7 @@ sup {
     width: 904px;
     height: 620px;
     left: 1023px;
-    top: 1519px;
+    top: 1390px;
 }
 
 .slider__btn {
@@ -455,7 +456,7 @@ sup {
     width: 1021px;
     height: 620px;
     left: 906px;
-    top: 2139px;
+    top: 2010px;
     background: #B1B2B3;
 }
 
@@ -513,7 +514,7 @@ sup {
     width: 906px;
     height: 620px;
     left: 0px;
-    top: 2139px;
+    top: 2010px;
 
     background: linear-gradient(180.96deg, rgba(0, 0, 0, 0) 30.35%, rgba(0, 0, 0, 0.5) 98.35%), url(../image/image\ 103\ \(2\).png);
 
@@ -582,7 +583,7 @@ sup {
     position: absolute;
     width: 1017px;
     height: 620px;
-    top: 2759px;
+    top: 2630px;
 
     margin-left: -8px;
 
@@ -637,7 +638,7 @@ sup {
     width: 910px;
     height: 620px;
     left: 1017px;
-    top: 2759px;
+    top: 2630px;
 
     background: url(../image/image\ 143\ \(2\).png);
 }
@@ -685,7 +686,7 @@ sup {
     height: 620px;
     background: #57585A;
     left: 910px;
-    top: 3379px;
+    top: 3250px;
 }
 
 .work__nstop__title {
@@ -745,33 +746,64 @@ sup {
 
     border: 2px solid #FFFFFF;
     border-radius: 50px;
-    }
-
-.application__work__btn__text {
-    position: absolute;
-    width: 155px;
-    height: 21px;
-    left: calc(50% - 155px/2);
-    top: calc(50% - 21px/2);
-
     font-family: 'Rubik';
     font-style: normal;
+    justify-content: center;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     display: flex;
     align-items: center;
+    align-content: center;
     text-align: center;
     color: #FFFFFF;
 }
+
+
 .application__work__btn:hover {
     color: #AB2421;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.5);
     border: 2px solid #AB2421
 }
 
-/* .btn__logo:hover{
-    color: #AB2421;
-    background-color: #FFFFFF;
-    border: 2px solid #AB2421
-} */
+.video_player {
+    position: absolute;
+    width: 910px;
+    height: 620px;
+    left: 0px;
+    top: 3250px;
+
+    background: url(../image/image\ 144\ \(2\).png);
+}
+
+.circle__btn {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.play__btn {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle__btn:hover path{
+    fill: #FFFFFF;
+    transform: scale(1.01);
+}
+
+.video_player__btn {
+
+}
+
+.video_player__next__btn {
+
+}
