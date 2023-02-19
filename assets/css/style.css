@@ -9,6 +9,8 @@
     position: relative;
 }
 
+::-webkit-scrollbar { width: 0px; display: none; }
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
@@ -132,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn__bell {
+    cursor: pointer;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -184,6 +187,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn__logo:hover{
+    cursor: pointer;
     color: #AB2421;
     background-color: #FFFFFF;
     border: 2px solid #AB2421
@@ -220,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner__btn:hover{
-    
+    cursor: pointer;
     background-color:#AB2421;
     stroke: #AB2421;
 }
@@ -229,6 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner__next__btn:hover {
+    cursor: pointer;
     background-color:#FFFFFF;
 }
 
@@ -286,27 +291,38 @@ sup {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 300px);
     margin-bottom: 199.49px;
+    padding: 76px 30px 64px 97px;
     left: 910px;
     top: 790px;
     position: absolute;
-    height: 600px;
-    width: 1017px;
+    height: 460px;
+    width: 883px;
     background-color: #EEEEEE;
     justify-content: space-between;
+
+    
 }
 
 .production__type {
     
-    display: -webkit-box;
+    /* display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 100%;
-    cursor: pointer;
+    
     margin-left: 96px;
     margin-top: 76px;
-    transition: 2s;
+    transition: 2s; */
+
+    cursor: pointer;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap:85px;
+    width: 100%;
+    max-width: 719px;
 }
 
 .production__type:hover path{
@@ -367,7 +383,7 @@ sup {
     /* белый */
 
     color: #FFFFFF;
-
+    z-index: 1000;
 }
 .wms__h2 {
     position: absolute;
@@ -386,13 +402,14 @@ sup {
     letter-spacing: 0.02em;
 
     color: #FFFFFF;
+
+    z-index: 1000;
 }
 
 .brandbook__car {
     position: absolute;
     width: 640.76px;
     height: 566.3px;
-/* как хорошо встала с первого раза*/
 }
 
 sup {
@@ -404,7 +421,7 @@ sup {
 .brandbook__slider {
     position: absolute;
     background: url("../image/image\ 106\ \(1\).png") no-repeat center / cover;
-    width: 904px;
+    width: 897px;
     height: 620px;
     left: 1023px;
     top: 1390px;
@@ -428,13 +445,13 @@ sup {
     position: absolute;
     width: 100px;
     height: 100px;
-    right: 804px;
+    right: 797px;
     transform: rotate(-180deg);
 }
 
 
 .slider__btn:hover{
-    
+    cursor: pointer;
     background-color:#AB2421;
     stroke: #AB2421;
 }
@@ -443,6 +460,7 @@ sup {
 }
 
 .slider__next__btn:hover {
+    cursor: pointer;
     background-color:#FFFFFF;
 }
  
@@ -453,7 +471,7 @@ sup {
 
 .warehouses{ 
     position: absolute;
-    width: 1021px;
+    width: 1014px;
     height: 620px;
     left: 906px;
     top: 2010px;
@@ -561,7 +579,7 @@ sup {
 }
 
 .left__warehouses__btn:hover{
-    
+    cursor: pointer;
     background-color:#AB2421;
     stroke: #AB2421;
 }
@@ -570,6 +588,7 @@ sup {
 }
 
 .left__warehouses__next__btn:hover {
+    cursor: pointer;
     background-color:#B1B2B3;
     border: #B1B2B3;
 }
@@ -635,7 +654,7 @@ sup {
 
 .the_man_in_the_red_shirt_or_blue {
     position: absolute;
-    width: 910px;
+    width: 903px;
     height: 620px;
     left: 1017px;
     top: 2630px;
@@ -664,7 +683,7 @@ sup {
 }
 
 .man__btn:hover{
-    
+    cursor: pointer;
     background-color:#AB2421;
     stroke: #AB2421;
 }
@@ -673,6 +692,7 @@ sup {
 }
 
 .man__next__btn:hover {
+    cursor: pointer;
     background-color:#FFFFFF;
 }
 
@@ -682,7 +702,7 @@ sup {
 
 .application__work {
     position: absolute;
-    width: 1017px;
+    width: 1010px;
     height: 620px;
     background: #57585A;
     left: 910px;
@@ -723,7 +743,7 @@ sup {
     color: #FFFFFF;
 }
 .work__car {
-    margin-left: 732px;
+    margin-left: 725px;
     position: absolute;
     width: 250.28px;
     height: 221.61px;
@@ -732,6 +752,7 @@ sup {
 }
 
 .application__work__btn {
+    cursor: pointer;
     box-sizing: border-box;
 
     position: absolute;
@@ -778,6 +799,7 @@ sup {
 }
 
 .circle__btn {
+    cursor: pointer;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -796,14 +818,206 @@ sup {
 }
 
 .circle__btn:hover path{
+    
     fill: #FFFFFF;
     transform: scale(1.01);
 }
 
 .video_player__btn {
-
+    cursor: pointer;
+    bottom: 0px;
+    position: absolute;
+    border: #AB2421;
+    background:#AB2421;
+    width: 100px;
+    height: 100px;
+    margin-left: 710px;
+    transform: rotate(-180deg);
 }
 
 .video_player__next__btn {
+    cursor: pointer;
+    border: #57585A;
+    border-radius: 0px;
+    background: #57585A;   
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 520px; 
+    margin-left: 810px;
+}
 
+.video_player__btn:hover{
+    
+    background-color:#57585A;
+    stroke: #FFFFFF;
+}
+.video_player__btn:hover path{
+    stroke: #FFFFFF;
+}
+
+.video_player__next__btn:hover {
+    background-color:#AB2421;
+}
+
+.video_player__next__btn:hover path {
+    stroke: #FFFFFF;
+} 
+
+.catalog {
+    position: absolute;
+    width: 1920px;
+    height: 890px;
+    left: 0px;
+    top: 3931px;
+    background: gainsboro;
+}
+.container__catalog {
+    margin-top: 179px;
+    position: absolute;
+    margin-left: 202px;
+    width: 557px;
+    height: 212px;
+    z-index: 1000;
+}
+
+
+/* .line__catalog {
+    position: absolute;
+    width: 1920px;
+    height: 0px;
+    left: 0px;
+    top: 4933.5px;
+} */
+
+.catalog__title {
+
+    position: absolute;
+    width: 528px;
+    height: 117px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 140%;
+
+    letter-spacing: 0.02em;
+
+    color: #1F1111;
+}
+
+.btn__catalog {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+
+    right: 0 auto;
+    bottom: 0;
+    position: absolute;
+
+    width: 261px;
+    height: 55px;
+    background: #AB2421;
+    border-radius: 50px;
+    border: 2px solid #AB2421;
+
+    position: absolute;
+
+
+    /* width: 171px;
+    height: 21px;
+    left: calc(50% - 171px/2);
+    top: calc(50% - 21px/2); */
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F9F9F9;
+}
+
+.btn__catalog_shop {
+    cursor: pointer;
+    box-sizing: border-box;
+    right: 0;
+    bottom: 0;
+    position: absolute; 
+    width: 277px;
+    height: 55px;
+
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #1F1111;
+}
+
+.btn__catalog:hover {
+    background: #ffffff;
+    border: 1px solid #AB2421;
+    color: #AB2421;
+}
+
+.btn__catalog_shop:hover {
+    background: #ffffff;
+    border: 1px solid #AB2421;
+    color: #AB2421;
+}
+
+.catalog__line {
+    position: absolute;
+    bottom: 0px;
+}
+
+.line__production {
+    
+}
+
+.line__product__NTN {
+    display: flex;
+    padding-top: 100px;
+    position: static;
+    margin: 0;
+    padding: 0;
+    width: 199px;
+    height: 110px;
+    margin-left: 32px;
+    background: url(../image/line1product.png);
+    z-index: 1;
+}
+
+.catalog__product__NSK {
+    position: static;
+    margin-left: 661px;
+    width: 250px;
+    height: 274px;
+    background: url(../image/line2product.png);
+    z-index: 2;
+    
+}
+
+
+
+
+
+
+.NTN {
+    padding-left: 87px;
 }
