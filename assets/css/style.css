@@ -971,13 +971,13 @@ sup {
 
 .btn__catalog:hover {
     background: #ffffff;
-    border: 1px solid #AB2421;
+    border: 2px solid #AB2421;
     color: #AB2421;
 }
 
 .btn__catalog_shop:hover {
     background: #ffffff;
-    border: 1px solid #AB2421;
+    border: 2px solid #AB2421;
     color: #AB2421;
 }
 
@@ -1205,13 +1205,11 @@ sup {
     height: 944px;
     top: 5775px;
     left: 0;
-    background: #000;
 }
 
 .title__news__contant {
     width: 1920px;
     height: 78px;
-    background: red;
     
 }
 
@@ -1310,7 +1308,7 @@ sup {
     left: 960px;
     height: 866px;
     width: 960px;
-    background: green;
+
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1613,6 +1611,12 @@ sup {
     height: 408px;
 }
 
+
+
+.other__news__container__img3_:hover {
+    
+}
+
 .other__news__container__img4_ {
     width: 455px;
     height: 408px;
@@ -1721,7 +1725,7 @@ sup {
     left: 0;
     width: 1920px;
     height: 592px;
-    background: palevioletred;
+    background: #EEEEEE;
 }
 
 .spam__title { 
@@ -1756,4 +1760,667 @@ sup {
     letter-spacing: 0.02em;
 
     color: #1F1111;
+}
+
+.form__spam {
+    width: 887px;
+    height: 55px;
+    margin-left: 200px;
+    margin-top: 313.07px;
+}
+.form__input {
+    position: absolute;
+    width: 672.91px;
+    margin-bottom: 30px;
+    padding: 18px 27px 15px 27px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: var(--white-color);
+    border: 2px solid #e0e0e0;
+    border-radius: 50px;
+    outline: none;
+    line-height: 20.15px;
+    max-height: 55px;
+
+    background: #FFFFFF;
+}
+
+.form__input__text {
+    position: absolute;
+
+
+    margin-top: 18px;
+    margin-left: 27px;
+    
+
+    pointer-events: none;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    transition: all .3s;
+
+    color: #1F1111;
+}
+
+/* .spam__email__error {
+    position: absolute;
+    width: 301px;
+    height: 75.5px;
+    top: 305px;
+    right: 730px;
+    background: #FFFAD1;
+    border-radius: 20px;
+} */
+
+.form__input:focus ~ .form__input__text,
+.form__input:not(:placeholder-shown) ~ .form__input__text {
+    margin-top: 6px;
+    font-size: 11px;
+    line-height: 15.4px
+}
+
+.form__input:valid {
+    /* border: 2px solid #6FCF97;
+    border-radius: 50px; */
+} 
+  
+.form__input:invalid{
+    border: 2px solid #AB2421;
+    border-radius: 50px;
+}
+
+.btn__subscribe {
+    cursor: pointer;
+    position: absolute;
+
+    width: 247.37px;
+    height: 55px;  
+    margin-left: 641.63px;
+    justify-content: center;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F9F9F9;
+    border: #AB2421;
+
+
+    background: #AB2421;
+    border-radius: 50px;
+}
+
+.btn__subscribe:hover {
+    color: #AB2421;
+    border: 2px solid #AB2421;
+    background: #F9F9F9;
+}
+
+.personal__data__text {
+    text-decoration: none;
+    position: absolute;
+    width: 607px;
+    height: 26px;
+    margin-top: 9px;
+    margin-left: 200px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+
+
+    letter-spacing: 0.02em;
+
+
+    color: #4D4D4D;
+
+}
+
+.logo__spam {
+    position: absolute;
+    margin-left: 1534px;
+    bottom: 267.66px;
+
+}
+
+.spam__checkboxes {
+    display: grid;
+    margin-top: 59px;
+    margin-left: 200px;
+    width: 887px;
+    height: 71px;
+    grid-template-columns: max-content max-content;
+    grid-gap: 37px;
+    grid-column-gap: 21px;
+    grid-row-gap: 23px;
+}
+
+.checkbox1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #1F1111;
+}
+
+.checkbox2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    
+    color: #1F1111;
+}
+
+.checkbox3 { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    
+    color: #1F1111;
+}
+
+.checkbox4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    
+    color: #1F1111;
+}
+
+.end {
+    position: absolute;
+    left: 0;
+    top:7361px;
+    width: 1920px;
+    height: 969px;
+}
+
+.communication__container {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 200px;
+    width: 1541px;
+    height: 484.99px;
+}
+
+.title_end  {
+    position: absolute;
+    width: 379px;
+    height: 47px;
+
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #1F1111;
+}
+
+/* .communication__form {
+    position: absolute;
+    width: 889px;
+    height: 392px;
+    margin-top: 40px;
+
+    background: rgb(149, 131, 13);
+} */
+.communication__name {
+    position: absolute;
+    margin-top: 87px;
+    width: 889px;
+    height: 55px;
+    
+}
+
+.communication__input__name {
+    position: absolute;
+
+    width: 889px;
+    height: 55px;
+    background: #FFFFFF;
+
+    padding: 18px 27px 15px 27px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #E0E0E0;
+    border-radius: 50px;
+}
+
+.communication__text__name {
+    position: absolute; 
+    margin-top: 18px;
+    margin-left: 27px;
+    pointer-events: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    transition: all .3s;
+
+    color: #1F1111;
+}
+
+.communication__input__name:focus ~ .form__input__text,
+.communication__input__name:not(:placeholder-shown) ~ .communication__text__name {
+    border: 2px solid #E0E0E0;
+    margin-top: 6px;
+    font-size: 11px;
+    line-height: 15.4px
+}
+
+.communication__input__name:valid {
+    border: 2px solid #E0E0E0;
+    border-radius: 50px;
+} 
+  
+/* .communication__input__name:invalid{
+    border: 2px solid #AB2421;
+    border-radius: 50px;
+} */
+
+.communication__number {
+    position: absolute;
+
+    margin-top: 172px;
+    width: 889px;
+    height: 55px;
+}
+
+.communication__input__number {
+    position: absolute;
+    width: 889px;
+    height: 55px;
+    background: #FFFFFF;
+
+    padding: 18px 27px 15px 27px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #E0E0E0;
+    border-radius: 50px;
+}
+
+
+.communication__text__number {
+    position: absolute; 
+    margin-top: 18px;
+    margin-left: 27px;
+    pointer-events: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    transition: all .3s;
+
+    color: #1F1111;
+}
+
+.communication__input__number:focus ~ .form__input__number,
+.communication__input__number:not(:placeholder-shown) ~ .communication__text__number {
+    margin-top: 6px;
+    font-size: 11px;
+    line-height: 15.4px
+}
+
+.communication__input__number:valid {
+    border: 2px solid #E0E0E0;
+    border-radius: 50px;
+} 
+
+.communication__email {
+    position: absolute;
+
+    margin-top: 257px;
+    width: 889px;
+    height: 55px;
+}
+
+
+
+
+
+
+
+.communication__email {
+    position: absolute;
+    margin-top: 172px;
+    width: 889px;
+    height: 55px;
+}
+
+.communication__input__email {
+    position: absolute;
+    width: 889px;
+    height: 55px;
+    background: #FFFFFF;
+
+    padding: 18px 27px 15px 27px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #E0E0E0;
+    border-radius: 50px;
+}
+
+
+.communication__text__email {
+    position: absolute; 
+    margin-top: 18px;
+    margin-left: 27px;
+    pointer-events: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    transition: all .3s;
+
+    color: #1F1111;
+}
+
+.communication__input__email:focus ~ .form__input__number,
+.communication__input__email:not(:placeholder-shown) ~ .communication__text__email {
+    margin-top: 6px;
+    font-size: 11px;
+    line-height: 15.4px
+}
+
+.communication__input__email:valid {
+    border: 2px solid #E0E0E0;
+    border-radius: 50px;
+} 
+
+.communication__email {
+    position: absolute;
+    cursor: pointer;
+    margin-top: 257px;
+    width: 889px;
+    height: 55px;
+}
+
+.btn__communication {
+    position: absolute;
+    cursor: pointer;
+    margin-top: 342px;
+    width: 889px;
+    height: 55px;
+    border: 2px solid #AB2421;
+    background: #AB2421;
+    border-radius: 50px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #F9F9F9;
+}
+
+.btn__communication:hover {
+    color: #AB2421;
+    border: 2px solid #AB2421;
+    background: #F9F9F9;
+}
+
+.user__contract { 
+    position: absolute;
+    width: 592px;
+    height: 52px;
+    margin-top: 427px;
+    margin-left: 23px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+
+    letter-spacing: 0.02em;
+
+    /* grey1 */
+
+    color: #4D4D4D;
+}
+
+.delivery {
+    position: absolute;
+    margin-top: 82px;
+    margin-left: 1145px;
+
+    position: absolute;
+    width: 301px;
+    height: 78px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 140%;
+
+    letter-spacing: 0.02em;
+
+    color: #1F1111;
+}
+
+.manager {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 1143px;
+    width: 398px;
+    height: 195px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 140%;
+
+    letter-spacing: 0.02em;
+
+    color: #1F1111;
+    
+}
+
+.msc {
+    position: absolute;
+    margin-top: 388px;
+    margin-left: 1143px;
+    width: 239px;
+    height: 25px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+
+    letter-spacing: 0.02em;
+
+    color: #1F1111;
+}
+
+.youtube {
+    position: absolute;
+    cursor: pointer;
+    margin-top: 445px;
+    margin-left: 1143px;
+    width: 52px;
+    height: 37px;
+}
+
+.vk {
+    position: absolute;
+    cursor: pointer;
+    margin-top: 442px;
+    margin-left: 1208px;
+    width: 42.99px;
+    height: 42.99px;
+}
+
+.youtube:hover path {
+    fill:#AB2421;
+} 
+
+.vk:hover path{
+    fill:#AB2421;
+} 
+
+.footer {
+    position: absolute;
+    top:7937px;
+    left: 0;
+    width: 1920px;
+    height: 394.01px;
+}
+
+.footer__leg {
+    position: absolute;
+    width: 1163px;
+    height: 201px;
+    margin-left: 200px;
+    bottom: 73.01px;
+}
+
+.footer__logo {
+    position: absolute;
+    width: 1161px;
+    height: 106.46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logotip__leg {
+    position: absolute;
+    left: 0;
+}
+
+.navigation__leg {
+    position: absolute;
+    width: 574px;
+    height: 39px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation__nav {
+    
+    position: absolute;
+
+}
+
+.navigation__link {
+    
+    margin-right: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .2s linear;
+    width: 99px;
+    height: 19px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+
+    color: #000000;
+}
+.navigation__link1 {
+    position: absolute;
+    transition: opacity .2s linear;
+    left: 553px;
+}
+
+.navigation__link:hover {
+    color: #AB2421;
+}
+
+.navigation__link1:hover circle {
+    stroke:#AB2421;
+}
+
+.navigation__link1:hover line {
+    stroke:#AB2421;
+}
+
+.creator {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rules__protection {
+    text-decoration: none;
+    position: absolute;
+    width: 787px;
+    height: 22px;
+    bottom: 0px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #3B3B3B;
+
+    opacity: 0.6;
+}
+
+.creator__amado {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    right: 0;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.amado {
+    text-decoration: none;
+    display: flex;
+    padding-right: 9.73px;
+    width: 132px;
+    height: 22px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #3B3B3B;
+
+    opacity: 0.6;
 }
