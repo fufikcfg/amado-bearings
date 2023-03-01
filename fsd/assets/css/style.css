@@ -71,13 +71,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .intro { 
-    /* padding-top: 129px; */
     display: flex;
     flex-direction: column;
     justify-content:left;
     position: absolute;
     width: 1920px;
-    height: 100%;
+    height: 890px;
     left: 0px;
     top: 0px;
     background: linear-gradient(84deg, rgba(0, 0, 0, 0.8) 6.8%, rgba(0, 0, 0, 0) 40.54%), url("../image/main-logo.jpg") no-repeat center / cover;
@@ -251,14 +250,81 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media (max-width: 480px) {
-
+@media (max-width: 1280px) {
     .intro {
+        width: 1280px;
+        height: 700px;
+    }
+
+    .intro__title {
+        left: 60px;
+        top: 350px;
+
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 43px;
+
+        width: 613px;   
+        height: 129px;
 
     }
 
+    .intro__title2 {
+        left: 60px;
+        top: 499px;
+
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 125%;
+        width: 613px;
+        height: 50px;
+    }
+
+    .logo__name {
+        left: 60px;
+        top: 148px;
+        width: 214px;
+        height: 110px;  
+    }
+
+    .btn__logo {
+        left: -446px;
+        top: 494px;
+    }
+
+    .line {
+        top: 700px;
+        width: 935px;
+        height: 4px;
+    }
+
+    .banner__btn {
+        right: 461px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .banner__next__btn {
+        width: 70px;
+        height: 70px;
+        right: 530px;
+    }
+
+    .header {
+        padding: 40px;
+        margin-left: 0px;
+    }
+
     .nav__link {
-        display: none;
+        width: 95px;
+        height: 17px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .header__info {
+        margin-left: 131px;
     }
 }
 
