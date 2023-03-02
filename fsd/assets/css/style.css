@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 890px;
     left: 0px;
     top: 0px;
-    background: linear-gradient(84deg, rgba(0, 0, 0, 0.8) 6.8%, rgba(0, 0, 0, 0) 40.54%), url("../image/main-logo.jpg") no-repeat center / cover;
+    background: pink;
 }
 
 .intro__title {
@@ -120,6 +120,23 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.slider {
+    width: 890px;
+    height: 1920px;
+}
+
+.slider-line {
+    width: 4450px;
+    display: flex;
+    position: relative;
+    left: 0px;
+    transition: all ease .6s;
+}
+
+.slider-img {
+    height: 890px;
+    width: 1920px;
+}
 
   
 .logo__name {
@@ -164,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     margin-top: 96px;
     left: -625px;
-    top: 625px;
+    top: -221px;
     background: #AB2421;
     border-radius: 50px;
     font-family: 'Rubik';
@@ -289,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .btn__logo {
         left: -446px;
-        top: 494px;
+        top: -208px;;
     }
 
     .line {
@@ -325,6 +342,19 @@ h1, h2, h3, h4, h5, h6 {
 
     .header__info {
         margin-left: 131px;
+    }
+
+    .slider {
+        width: 1280px;
+        height: 700px;
+    }
+
+    .slider-line {
+        width: 6400px;
+    }
+    .slider-img {
+        height: 700px;
+        width: 1280px;
     }
 }
 
